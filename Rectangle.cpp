@@ -50,7 +50,7 @@ int main()
 	cout << "Please insert triangle legs: \n";
 	cin >> leg1 >>  leg2 >> leg3;
 
-	if ((length < 0 || width < 0) && ((leg1 + leg2 < leg3) || (leg1 + leg3 < leg2) || (leg2 + leg3 < leg1)))
+	if ((length < 0 || width < 0) && ((leg1 + leg2 < leg3) || (leg1 + leg3 < leg2) || (leg2 + leg3 < leg1)) && (leg1 < 0 || leg2 < 0 || leg3 < 0))
 	{
 		cout << "Please enter valid parameters.\n";
 		return 0;
