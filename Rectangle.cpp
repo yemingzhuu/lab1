@@ -93,7 +93,7 @@ int main()
 			float perimeter = PrTriang(leg1, leg2, leg3);
 			cout << "Triangle results: " << endl;
 			cout << "Perimeter of Triangle: " << perimeter << endl;
-			cout << "Area of Triangle(Geron): " << AreaTriang(leg1, leg2, leg3, perimeter) << endl;
+			cout << "Area of Triangle(Geroin): " << AreaTriang(leg1, leg2, leg3, perimeter) << endl;
 			cout << "Isosceles of Triangle: ";
 			if (IsoTriang(leg1, leg2, leg3) == 1)
 			{
