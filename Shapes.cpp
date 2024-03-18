@@ -21,7 +21,7 @@ float PrTriang(float leg1, float leg2, float leg3) // Вычисляет пер�
 {
 	return (leg1 + leg2 + leg3);
 }
-float AreaTriang(float leg1, float leg2, float leg3, float perimeter) // Вычисляет площадь треугольника
+float AreaTriang(float leg1, float leg2, float leg3, float perimeter) // Вычисляет площадь нашего треугольника
 {
 	return sqrt((perimeter / 2) * (perimeter / 2 - leg1) * (perimeter / 2 - leg2) * (perimeter / 2 - leg3));
 }
