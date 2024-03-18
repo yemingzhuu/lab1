@@ -5,7 +5,7 @@ using namespace std;
 
 float Perimeter(float length, float width) // Вычисляет периметр прямоугольника
 {
-	return (length * 2 + width * 2);
+	return (length * 2 + width * 2); // я люблю пельмени
 }
 
 float Area(float length, float width) // Вычисляет площадь прямоугольника
