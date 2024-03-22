@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 
-using namespace std;
+using namespace std; // Добавим комментарий =)
 
 float Perimeter(float length, float width) // Вычисляет периметр прямоугольника
 {
