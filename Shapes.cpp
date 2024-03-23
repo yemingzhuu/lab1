@@ -117,7 +117,7 @@ int main()
 		}
 		else // Вывод функций
 		{
-			cout << "Trapezoid results:" << endl; //hochu spat
+			cout << "Trapezoid results:" << endl; //ochen' sil'no hochu spat'
 			cout << "Perimeter of Trapezoid: " << TzoidPerimeter(bases_a, bases_b, side_l, side_r) << endl;
 			cout << "Area of Trapezoid: " << TzoidArea(bases_a, bases_b, side_l, side_r) << endl;
 			cout << "Average of Trapezoid: " << TzoidAverage(bases_a, bases_b) << endl;
