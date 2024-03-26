@@ -110,7 +110,7 @@ int main()
 		cin >> bases_a >> bases_b;
 		cout << "Please insert the sides of the trapezoid: \n";
 		cin >> side_l >> side_r;
-		if (bases_a < 0 || bases_b < 0 || side_l < 0 || side_r < 0) // Проверка параметров
+		if (bases_a < 0 || bases_b < 0 || side_l < 0 || side_r < 0) // Проверка параметроуфф:3
 		{
 			cout << "Please enter valid parameters.\n";
 			return 0;
